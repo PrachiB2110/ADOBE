@@ -82,8 +82,6 @@ The solution is containerized using a Python 3.10 base image with linux/amd64 pl
 Challenge_1a/
 ├── Dockerfile                 # Container configuration
 ├── process_pdfs_improved.py  # Main processing script
-├── process_pdfs.py           # Alternative implementation
-├── test_process_pdfs.py      # Testing version
 ├── README.md                 # This documentation
 └── sample_dataset/           # Test data and expected outputs
 ```
