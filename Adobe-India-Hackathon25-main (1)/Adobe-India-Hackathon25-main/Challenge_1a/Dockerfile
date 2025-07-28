@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir PyMuPDF==1.23.14
 
 # Copy the processing script
-COPY process_pdfs.py .
+COPY process_pdfs_improved.py .
 
 # Run the script
-CMD ["python", "process_pdfs.py"] 
+CMD ["python", "process_pdfs_improved.py"] 
